@@ -1,0 +1,78 @@
+:root {
+  --primary-color: #6a0dad;
+  --secondary-color: #fff;
+  --background-color: #ccc;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 10px;
+}
+
+#err {
+  color: red;
+  font-weight: bold;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button,
+input[type="submit"] {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #4c067f;
+}
+
+section {
+  background-color: var(--background-color);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
